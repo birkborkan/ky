@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#1F2937">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+        
+        <!-- Number row -->
+        <Button android:id="@+id/key_1" style="@style/KeyboardButton" android:text="1"/>
+        <Button android:id="@+id/key_2" style="@style/KeyboardButton" android:text="2"/>
+        <!-- Add more number buttons -->
+    </LinearLayout>
+
+    <!-- Add more rows for letters -->
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <Button android:id="@+id/key_globe" 
+            style="@style/KeyboardSpecialButton"
+            android:text="🌐"/>
+            
+        <Button android:id="@+id/key_space"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            style="@style/KeyboardButton"/>
+            
+        <Button android:id="@+id/key_backspace"
+            style="@style/KeyboardSpecialButton"
+            android:text="⌫"/>
+    </LinearLayout>
+</LinearLayout>

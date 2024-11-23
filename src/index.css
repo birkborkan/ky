@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-name {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 400px) {
+  .header-name {
+    font-size: 16px;
+  }
+}

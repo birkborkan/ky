@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Zaghawa Beria";
+  src: url("/fonts/ZaghawaBeria.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Zaghawa Beria";
+  src: url("ZaghawaBeria.woff2") format("woff2"),
+    url("ZaghawaBeria.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
